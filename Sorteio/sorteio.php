@@ -2,33 +2,25 @@
 <html>
 <head>
 	<title>Sorteio MV</title>
+	<link rel="shortcut icon" href="image/icon.png" type="image/x-icon" />
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-
 	<?php
-
-	if (isset($_POST['num1']) && isset($_POST['num2'])) {
-		$num1 = $_POST['num1'];
-		$num2 = $_POST['num2'];
-
-		$sorteado = rand($num1, $num2); 
-	}
-
-	
-
+		if (isset($_POST['num1']) && isset($_POST['num2'])) {
+			$num1 = $_POST['num1'];
+			$num2 = $_POST['num2'];
+			$sorteado = rand($num1, $num2); 
+		}
 	?>
-
-
-
 	<header>
 		<h1>Sorteio MV</h1>
 	</header>
 	<section>
 		<form method="POST">
-			<a href="index.php"><div><h2>Sortear por nome</h2></div></a>
+			<a href="index.php"><div><h2 style="display: flex; align-items: center;"><img src="image/seta.png" style="margin-right: 5px;">Sortear por nome</h2></div></a>
 			<div class="box-center">
 				<div class="box">
 					<div class="cir-img">
