@@ -3,10 +3,10 @@ Mini sistema aplicando o conhecimento de inserir, deletar e atualizar dados no b
 Criando uma lista de usuários.
 
 # Página princiapl
-![preview](image/image1.png)
+![preview](image/image1.png);
 
 #Página de cadastro
-![preview](image/image2.png)
+![preview](image/image2.png);
 
 #Página para Atualizar cadastro
-![preview](image/image1.png)
+![preview](image/image3.png);
