@@ -9,14 +9,19 @@
 </head>
 <body>
 	<?php
+
 		if (isset($_POST['num1']) && isset($_POST['num2'])) {
-			$num1 = $_POST['num1'];
-			$num2 = $_POST['num2'];
-			$sorteado = rand($num1, $num2); 
+			if (!empty($_POST['num1']) && !empty($_POST['num2'])) {
+				$num1 = $_POST['num1'];
+				$num2 = $_POST['num2'];
+				$sorteado = rand($num1, $num2);
+			}
+		} else if (!isset($_POST['num1']) && !empty($_POST['num2'])) {
+			print_r("Favor, preencher os campos!");
 		}
 	?>
 	<header>
-		<h1>Sorteio MV</h1>
+		<h1>Sorteador MV-Tech</h1>
 	</header>
 	<section>
 		<form method="POST">
@@ -42,11 +47,9 @@
 					<div class="botao-p enviar">
 						<input type="submit" value="Enviar">
 					</div>
-					
 				</div>
 			</div>
 		</form>
 	</section>
-
 </body>
 </html>

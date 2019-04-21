@@ -14,7 +14,7 @@
 
 
 	<header>
-		<h1>Sorteio MV</h1>
+		<h1>Sorteador MV-Tech</h1>
 	</header>
 	<section>
 		<form>
