@@ -2,11 +2,9 @@
 Mini sistema aplicando o conhecimento de inserir, deletar e atualizar dados no banco de dados.
 Criando uma lista de usuários.
 
-# Página princiapl
+# Página principal
 ![preview](image/image1.png);
-
-#Página de cadastro
+# Página de cadastro
 ![preview](image/image2.png);
-
-#Página para Atualizar cadastro
+# Página para Atualizar cadastro
 ![preview](image/image3.png);
