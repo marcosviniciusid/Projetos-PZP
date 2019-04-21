@@ -1,10 +1,12 @@
 ﻿# Projeto Controle de Usuários
-Mini sisteminha aplicando o conhecimento em inserir, deletar e atualizar dados do banco de dados.
-Criando uma lista de dados.
+Mini sistema aplicando o conhecimento de inserir, deletar e atualizar dados no banco de dados.
+Criando uma lista de usuários.
 
 # Página princiapl
 ![preview](image/image1.png)
+
 #Página de cadastro
 ![preview](image/image2.png)
+
 #Página para Atualizar cadastro
 ![preview](image/image1.png)
