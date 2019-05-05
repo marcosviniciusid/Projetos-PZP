@@ -14,6 +14,24 @@ if (isset($_POST['deslogar'])) {
 
 ?>
 
-<form method="post">
-	<input type="submit" name="deslogar" value="Deslogar">
+<form method="post" style="float: left;">
+	<input type="submit" name="deslogar" value="Deslogar" style="margin-right: 10px;">
 </form>
+<hr>
+<h3>Envio de arquivos pelo form</h3>
+
+<form method="post" enctype="multipart/form-data" action="recebedor.php">
+	<input type="file" name="arquivo">
+	<input type="submit" name="">
+</form>
+
+<h3>Envio de arquivos multiplos pelo form</h3>
+<form method="post" enctype="multipart/form-data" action="recebedor.php">
+	<input type="file" multiple name="archive[]">
+	<input type="submit" name="">
+</form>
+
+
+
+
+

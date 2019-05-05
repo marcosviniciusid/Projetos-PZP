@@ -16,6 +16,9 @@ if (isset($_POST['email']) && !empty($_POST['email'])) {
 		header("Location: index.php");
 	}
 }
+if (isset($_POST['enviar'])) {
+	echo "Ops, Login errado!";
+}
 
 ?>
 <!DOCTYPE html>
@@ -34,7 +37,7 @@ if (isset($_POST['email']) && !empty($_POST['email'])) {
 				<form method="POST">
 					<input type="text" name="email" placeholder="E-mail"><br><br>
 					<input type="password" name="senha" placeholder="Senha"><br><br>
-					<input id="enviar" type="submit" name="">
+					<input id="enviar" type="submit" name="enviar">
 				</form>
 			</div>
 		</div>
