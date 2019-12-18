@@ -1,0 +1,4 @@
+extenção do php que normalmente já vem com ele quando instala.
+
+Manipula imagens. Redimencionar imagens por exemplo.
+
