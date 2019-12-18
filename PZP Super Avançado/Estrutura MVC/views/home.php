@@ -1,3 +1,3 @@
-<h1>Olá mundo. - HOME - <?php echo $quantidade; ?></h1>
+<h1>Olá, <?php echo " ".$nome."! - ".$idade."<br> Temos ".$quantidade." anúncios."; ?></h1>
 
 
