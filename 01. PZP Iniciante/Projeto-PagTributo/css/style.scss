@@ -1,0 +1,37 @@
+$widht: 45%;
+header, section {
+	text-align: center;
+	padding: 40px;
+	margin: 0;
+
+	h1 {
+		margin-bottom: 10px;
+	}
+	p {
+		font-size: 1.5em;
+	}
+	.box-text {
+		width: 90%;
+		margin: auto;
+		//background-color: #000;
+		//color: #fff;
+		width: $widht;
+		text-align: justify;
+		padding: 10px;
+		h2 {
+			text-align: center;
+		}
+	}
+}
+#image-perfil, header {
+	background-color: red;
+	img {
+		width: $widht;
+		border: 5px solid black;
+		border-radius: 5px;
+		Transition: all 0.5s linear;
+	}
+	img:hover {
+		margin-left: 50px;;
+	}
+}

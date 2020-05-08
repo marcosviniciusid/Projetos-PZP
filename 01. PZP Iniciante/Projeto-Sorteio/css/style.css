@@ -1,0 +1,108 @@
+* {
+	font-family: arial;
+}
+body {
+	padding: 0;
+	margin: 0;
+	background-image: linear-gradient(to bottom, #6633B4, #280E51);
+	height: 100vh;
+}
+header {
+	height: 190px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+a {
+	text-decoration: none;
+}
+h1 {
+	padding: 0px;
+	margin: 0px;
+	color: #fff;
+	font-size: 60px;
+}
+h2 {
+	color: #fff;
+}
+header h1 {
+	margin-top: 60px;
+}
+section {
+	display: flex;
+	justify-content: center;
+}
+.box-center {
+	display: flex;
+	background-color: #3794BE;
+	min-height: 497px;
+	flex-wrap: wrap;
+	border-radius: 5px;
+    box-shadow: 0px 3px 7px 0px #0006;
+}
+.box {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	align-items: center;
+	padding: 57px;
+}
+.cir-img {
+	border-radius: 50%;
+	width: 167px;
+	height: 167px;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px 3px 7px 0px #0006;
+	margin-top: 56px;
+	margin-bottom: 30px;
+}
+.box-rec{
+	margin-top: 72px;
+	margin-bottom: 30px;
+}
+.botao-p {
+	width: 273px;
+	height: 59px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0px 3px 7px 0px #0006;
+	font-size: 25px;
+	font-weight: bold;
+	color: #3794BE;
+	margin-bottom: 15px;
+}
+.botao-p input {
+	display: inline-block;
+    height: 100%;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 15px;
+    outline: 0;
+}
+.botao-p div {
+	box-sizing: border-box;
+    padding: 10px;
+    width: 88px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #3AD85F;
+    color: #fff;
+    border-radius: 5px;
+}
+.enviar input {
+	background-color: #3AD85F;
+	font-size: 25px;
+	color: #fff;
+	font-weight: bold;
+
+}
